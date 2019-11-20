@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,14 @@
   },
   "homepage": "https://github.com/YaroslavPikiner/kanban-JS#readme",
   "devDependencies": {
-    "eslint": "^6.6.0"
+    "@babel/core": "^7.7.2",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^6.6.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "webpack-dev-server": "^3.9.0"
   }
 }
