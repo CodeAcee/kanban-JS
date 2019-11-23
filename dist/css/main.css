@@ -34,3 +34,11 @@
   border: 1px solid black;
   margin-right: 20px;
 }
+
+.card {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  text-align: center;
+  color: #000;
+}

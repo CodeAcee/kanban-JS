@@ -1,4 +1,4 @@
-import column from "../column.json";
+import column from "../data/column.json";
 
 export const getColums = () => {
   const colData = JSON.stringify(column);
