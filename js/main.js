@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 import card from '../src/data/services/card';
 import column from '../src/data/services/column';
+=======
+import service from '../src/service';
+>>>>>>> 075b1f96c6cb9e63b354801c2a6f801bccc035a2
 
 const app = document.querySelector('#app');
 app.classList.add('#app');

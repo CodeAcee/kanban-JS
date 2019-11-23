@@ -11,6 +11,19 @@
   background-color: lightgray;
 }
 
+<<<<<<< HEAD
+=======
+.board {
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  background-color: #000;
+  color: #fff;
+  outline: none;
+  border: none;
+  transition: all 0.3s;
+}
+>>>>>>> 075b1f96c6cb9e63b354801c2a6f801bccc035a2
 .header__btn:hover {
   background-color: #fff;
   color: #000;
