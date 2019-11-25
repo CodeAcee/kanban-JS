@@ -1,5 +1,5 @@
-import column from "../data/column.json";
+import columns from "../data/column.json";
 
 export const getColums = () => {
-  return column;
+  return columns;
 };
