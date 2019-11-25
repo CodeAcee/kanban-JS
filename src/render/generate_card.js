@@ -11,4 +11,6 @@ export const generateCard = (card) => {
 
   cardEl.appendChild(cardHeader);
   cardEl.appendChild(cardText);
+
+  return cardEl;
 }
