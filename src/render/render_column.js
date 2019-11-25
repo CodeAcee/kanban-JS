@@ -7,4 +7,6 @@ export const generateColumn = (column) => {
   columnName.innerHTML = column.name;
 
   columnEl.appendChild(columnName);
+
+  return columnEl;
 };
