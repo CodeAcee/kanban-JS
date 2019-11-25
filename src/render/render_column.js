@@ -10,3 +10,4 @@ export const generateColumn = (column) => {
 
   return columnEl;
 };
+
