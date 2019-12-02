@@ -1,4 +1,4 @@
-export const generateCard = (card) => {
+export const renderCard = (card) => {
   const cardEl = document.createElement('div');
   cardEl.classList.add('card');
   cardEl.setAttribute('card-id', card.id);
@@ -7,7 +7,7 @@ export const generateCard = (card) => {
   cardHeader.innerHTML = card.name;
 
   const cardText = document.createElement('div');
-  cardText.innerHTML = card.text;
+  cardText.innerHTML = card.description;
 
   cardEl.appendChild(cardHeader);
   cardEl.appendChild(cardText);
