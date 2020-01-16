@@ -1,11 +1,11 @@
-import { getCards } from "../src/services/card";
-import { getColums } from "../src/services/column";
-import { renderColumn } from "../src/render/render_column";
-import { renderCard } from "../src/render/render_card";
+import { getCards } from '../src/services/card';
+import { getColums } from '../src/services/column';
+import { renderColumn } from '../src/render/render_column';
+import { renderCard } from '../src/render/render_card';
 
-const app = document.getElementById("app");
-const board = document.createElement("div");
-board.classList.add("column__block");
+const app = document.getElementById('app');
+const board = document.createElement('div');
+board.classList.add('column__block');
 app.appendChild(board);
 
 const columns = getColums();
