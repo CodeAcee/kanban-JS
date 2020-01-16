@@ -1,5 +1,5 @@
-import { getCards } from "../src/services/card";
-import { getColums } from "../src/services/column";
+import { getCards } from '../src/services/card';
+import { getColums } from '../src/services/column';
 import { renderColumn } from '../src/render/render_column';
 import { renderCard } from '../src/render/render_card';
 
@@ -11,11 +11,13 @@ app.appendChild(board);
 const columns = getColums();
 const cards = getCards();
 
-columns.forEach((column) => {
+columns.forEach(column => {
   const columnEl = renderColumn(column);
-  cards.filter((card) => card.colId === column.id)
+
+  cards.filter(card => card.colId === column.id)
         .map(renderCard)
-        .forEach(card => columnEl.append(card))  
+        .forEach(card => columnEl.append(card))
   board.append(columnEl);
 })
+
 
