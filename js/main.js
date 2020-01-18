@@ -14,10 +14,9 @@ const cards = getCards();
 columns.forEach(column => {
   const columnEl = renderColumn(column);
 
-  cards.filter(card => card.colId === column.id)
-        .map(renderCard)
-        .forEach(card => columnEl.append(card))
+  cards
+    .filter(card => card.colId === column.id)
+    .map(renderCard)
+    .forEach(card => columnEl.append(card));
   board.append(columnEl);
-})
-
-
+});
