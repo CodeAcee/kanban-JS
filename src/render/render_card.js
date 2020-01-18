@@ -20,5 +20,4 @@ export const renderCard = card => {
 
 const dragStart = event => {
   event.dataTransfer.setData('content', event.target.dataset.id);
-  console.log(event.target);
 };
