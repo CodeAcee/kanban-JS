@@ -1,4 +1,4 @@
-import { dragOver, dropCard } from '../utils/dragNdrop';
+import { dragOver, drop } from '../utils/dragNdrop';
 
 export const renderColumn = column => {
   const columnEl = document.createElement('div');
@@ -19,7 +19,7 @@ export const renderColumn = column => {
   columnName.append(columnTitle);
 
   columnEl.addEventListener('dragover', dragOver);
-  columnEl.addEventListener('drop', dropCard);
+  columnEl.addEventListener('drop', drop);
 
   return columnEl;
 };
