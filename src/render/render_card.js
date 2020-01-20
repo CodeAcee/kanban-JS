@@ -1,4 +1,4 @@
-import { dragStart } from './dragCard';
+import { dragStart } from '../utils/dragCard';
 
 export const renderCard = card => {
   const cardEl = document.createElement('div');

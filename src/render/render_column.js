@@ -1,4 +1,4 @@
-import { dragOver, dropCard } from './dragCard';
+import { dragOver, dropCard } from '../utils/dragCard';
 
 export const renderColumn = column => {
   const columnEl = document.createElement('div');
