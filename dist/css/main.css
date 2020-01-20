@@ -19,12 +19,10 @@ html {
 }
 
 .title {
-position: relative;
-display: inline-block;
-margin-top: 20px;
-left: 10%;
-
-
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  left: 10%;
 }
 
 .column-block {
@@ -52,20 +50,19 @@ left: 10%;
   height: auto;
   padding: 20px 0 20px 0;
   margin: 20px 0 0 10px;
-  border-left: 10px solid  #0063D8;
-  background-color: #22252F;
+  border-left: 10px solid #0063d8;
+  background-color: #22252f;
   border-radius: 7px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .card-done {
-  border-left: 10px solid  #00BE95;
+  border-left: 10px solid #00be95;
 }
 
 .card:hover {
-  border-color:  #00BE95;
+  border-color: #00be95;
   background-color: rgb(32, 35, 44);
-
 }
 
 .column-title {
@@ -77,16 +74,15 @@ left: 10%;
   border-radius: 5px;
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 600; 
+  font-weight: 600;
 }
-
 
 button {
   width: 40px;
   height: 40px;
   border: none;
-  transition: all .3s;
-  color:rgb(60, 82, 121);
+  transition: all 0.3s;
+  color: rgb(60, 82, 121);
   background-color: transparent;
   font-size: 22px;
   outline: none;
@@ -95,5 +91,5 @@ button {
 button:hover {
   border-radius: 3px;
   transform: rotate(180deg);
-  color: #00ADB5;
+  color: #00adb5;
 }
