@@ -13,7 +13,7 @@
   padding: 0;
 }
 
-.column__block {
+.column-block {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -37,7 +37,7 @@
   margin: 20px 0 0 10px;
 }
 
-.column__title {
+.column-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,7 +47,7 @@
   border-radius: 5px;
 }
 
-.column__title::first-letter {
+.column-title::first-letter {
   text-transform: uppercase;
 }
 

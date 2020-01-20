@@ -5,7 +5,7 @@ import { renderCard } from '../src/render/render_card';
 
 const app = document.getElementById('app');
 const board = document.createElement('div');
-board.classList.add('column__block');
+board.classList.add('column-block');
 app.appendChild(board);
 
 const columns = getColums();
