@@ -1,4 +1,4 @@
-export const dragStart = event => {
+export const dragCard = event => {
   event.dataTransfer.setData('content', event.target.dataset.id);
 };
 
