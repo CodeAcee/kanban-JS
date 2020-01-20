@@ -9,7 +9,7 @@ export const renderCard = card => {
 
   const cardHeader = document.createElement('h3');
   cardHeader.innerHTML = card.name;
-
+  
   const cardText = document.createElement('div');
   cardText.innerHTML = card.description;
 

@@ -13,7 +13,7 @@
   padding: 0;
 }
 
-.column-block {
+.board {
   display: flex;
   justify-content: center;
   width: 100%;
