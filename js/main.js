@@ -5,8 +5,12 @@ import { renderCard } from '../src/render/render_card';
 
 const app = document.getElementById('app');
 const board = document.createElement('div');
+const title = document.createElement('h1');
+title.innerHTML = "Task Board";
+title.classList.add("title")
 board.classList.add('column-block');
 app.appendChild(board);
+board.append(title)
 
 
 const columns = getColums();

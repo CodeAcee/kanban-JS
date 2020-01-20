@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   color: aliceblue;
- 
-
 }
 
 html {
@@ -18,22 +16,31 @@ html {
   height: 100vh;
   margin: 0;
   padding: 0;
+}
+
+.title {
+position: relative;
+display: inline-block;
+margin-top: 20px;
+left: 10%;
+
 
 }
 
 .column-block {
   display: flex;
-  justify-content: center;
-  margin: 20px 0 0 70px;
+  justify-content: flex-start;
+  margin: 20px 40px 0 60px;
   width: 90%;
   height: 80%;
-  background-color: rgba(22, 22, 22, 0.651)
+  background-color: rgba(22, 22, 22, 0.651);
+  border-radius: 5px;
 }
 
 .column {
   width: 320px;
   height: 100%;
-  margin-top: 30px;
+  margin-top: 120px;
   margin-right: 40px;
   border-radius: 5px;
   z-index: 1;
@@ -65,6 +72,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #545359;
   padding: 5px;
   border-radius: 5px;
   text-transform: uppercase;
