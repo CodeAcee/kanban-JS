@@ -2,8 +2,15 @@
   margin: 0;
   padding: 0;
   color: aliceblue;
-  background-color: #1d2951;
+ 
 
+}
+
+html {
+  background-image: url('https://vixstar1314.files.wordpress.com/2011/05/night3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Alata', sans-serif;
 }
 
 #app {
@@ -11,30 +18,47 @@
   height: 100vh;
   margin: 0;
   padding: 0;
+
 }
 
 .column-block {
   display: flex;
   justify-content: center;
-  width: 100%;
+  margin: 20px 0 0 70px;
+  width: 90%;
+  height: 80%;
+  background-color: rgba(22, 22, 22, 0.651)
 }
 
 .column {
-  width: 250px;
-  height: 400px;
+  width: 320px;
+  height: 100%;
   margin-top: 30px;
-  margin-right: 20px;
-  border: 1px solid aliceblue;
+  margin-right: 40px;
   border-radius: 5px;
+  z-index: 1;
 }
 
 .card {
   text-align: center;
-  width: 230px;
+  width: 250px;
   height: auto;
-  border: 1px solid aliceblue;
   padding: 20px 0 20px 0;
   margin: 20px 0 0 10px;
+  border-left: 10px solid  #0063D8;
+  background-color: #22252F;
+  border-radius: 7px;
+  transition: all .3s;
+}
+
+.card-done {
+  border-left: 10px solid  #00BE95;
+}
+
+.card:hover {
+  border-color:  #00BE95;
+  background-color: rgb(32, 35, 44);
+
 }
 
 .column-title {
@@ -42,13 +66,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 5px;
-  border: 1px solid aliceblue;
-  border-bottom: 5px solid aliceblue;
   border-radius: 5px;
-}
-
-.column-title::first-letter {
   text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600; 
 }
 
 
@@ -57,14 +78,14 @@ button {
   height: 40px;
   border: none;
   transition: all .3s;
-  border:  1px solid transparent;
-  font-size: 18px;
+  color:rgb(60, 82, 121);
+  background-color: transparent;
+  font-size: 22px;
+  outline: none;
 }
 
 button:hover {
-  border:  1px solid #000;
   border-radius: 3px;
   transform: rotate(180deg);
-  background: aliceblue;
-  color: #000;
+  color: #00ADB5;
 }

@@ -8,6 +8,7 @@ const board = document.createElement('div');
 board.classList.add('column-block');
 app.appendChild(board);
 
+
 const columns = getColums();
 const cards = getCards();
 
