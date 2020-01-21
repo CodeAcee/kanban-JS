@@ -1,4 +1,4 @@
-import {dragStart} from './dragCard'
+import {drag} from './dragNdrop'
 
 export const renderCard = card => {
   const cardEl = document.createElement('div');
@@ -16,7 +16,7 @@ export const renderCard = card => {
   cardEl.append(cardHeader);
   cardEl.append(cardText);
 
-  cardEl.addEventListener('dragstart', dragStart);
+  cardEl.addEventListener('dragstart', drag);
 
   return cardEl;
 };
